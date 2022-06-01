@@ -1,6 +1,6 @@
 # **Artem Pashentsev** 
 
-
+![profile](/profile.jpg)
 
 ## Contact information:
 
