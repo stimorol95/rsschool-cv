@@ -4,13 +4,15 @@
 
 ## Contact information:
 
-* e-mail: artem2695post@yandex.ru
+* E-mail: artem2695post@yandex.ru
 
-* mobile: *8(999)9645808*
+* Mobile: *8(999)9645808*
+
+* Discord: stimorol95#8973
 
 * [Telegram](https://t.me/stimorol95)
 
-* discord: stimorol95#8973
+* [Github](https://github.com/stimorol95)
 
 ## About Me
 
@@ -18,11 +20,21 @@
 
 ## Skills
 
-I take courses in Geekbrains and study them: Html Css, Javascript, React. I know how to work with Git and in VS Code.
+I take courses in Geekbrains and study them:
+
+* HTML
+* CSS(SCSS)
+* Javascript
+* React
+
+I know how to work with:
+* Git 
+* VS Code
+* Figma
 
 ## Work experience
 
-On courses in Geekbrains, I made a training website with a clothing store.
+On courses in Geekbrains, I made a training website with a clothing store:
 
 [Store Link](https://stimorol95.github.io/clothing_store/)
 
@@ -32,4 +44,5 @@ In 2017, I graduated from the Aviation Institute, Faculty of Control Systems, In
 
 ## Language 
 
-English language level A1
+* Russian (native)
+* English (pre intermediate)
