@@ -1,1 +1,1 @@
-# rsschool-cv
+https://stimorol95.github.io/rsschool-cv/cv
