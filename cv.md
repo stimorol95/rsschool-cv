@@ -20,8 +20,6 @@
 
 ## Skills
 
-I take courses in Geekbrains and study them:
-
 * HTML
 * CSS(SCSS)
 * Javascript
@@ -31,6 +29,32 @@ I know how to work with:
 * Git 
 * VS Code
 * Figma
+
+## Code Example
+
+Task from codewars website:
+
+Complete the solution so that it reverses the string passed into it.
+`
+'world'  =>  'dlrow'
+'word'   =>  'drow'
+`
+
+```
+function solution(str) {
+ 
+  let splitString = str.split(''); 
+  
+  let reverseArray = splitString.reverse();
+  
+  let joinArray = reverseArray.join('');
+  
+  return joinArray;
+  
+}
+
+console.log(solution('world'));
+```
 
 ## Work experience
 
@@ -42,7 +66,9 @@ On courses in Geekbrains, I made a training website with a clothing store:
 
 In 2017, I graduated from the Aviation Institute, Faculty of Control Systems, Informatics and Power Engineering, with a degree in Navigation Systems and Inertial Sensors of Aircraft Control Systems. 
 
+I am taking courses on Geekbrains and RS School.
+
 ## Language 
 
 * Russian (native)
-* English (pre intermediate)
+* English (pre-intermediate)
