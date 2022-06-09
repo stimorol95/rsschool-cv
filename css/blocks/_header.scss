@@ -1,0 +1,13 @@
+.nav {
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__link {
+    padding: 0 20px;
+    line-height: 60px;
+    transition: .5s;
+  }
+}

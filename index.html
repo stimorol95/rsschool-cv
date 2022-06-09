@@ -6,86 +6,177 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+          <li class="nav__item"><a href="#about-me" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#code-example" class="nav__link">Code Example</a></li>
+          <li class="nav__item"><a href="#work-experience" class="nav__link">Work experience</a></li>
+          <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+          <li class="nav__item"><a href="#language" class="nav__link">Language</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container main__container">
+      <div class="main__header">
+        <section class="section">
+          <img src="/assets/pictures/main-foto.jpg" alt="profile">
+          <div>
+            <h1>Artem Pashentsev</h1>
+            <h2>frontend developer</h2>
+          </div>
+        </section>
+      </div>
+      <div class="main__content">
+        <section class="section" id="contacts">
+          <h3 class="section__title">Contacts</h3>
+          <ul>
+            <li><a href="mailto:artem2695post@yandex.ru" title="email">E-mail:artem2695post@yandex.ru</a></li>
+            <li><a href="https://wa.me/+79999645808" title="whatsapp">Whats app: +7 (999) 964 58 08</a></li>
+            <li><a href="https://discord.com/channels/@me/701818328079007904">stimorol95#8973</a></li>
+            <li><a href="https://t.me/stimorol95" title="telegram">@stimorol95</a></li>
+            <li><a href="https://github.com/stimorol95" title="github">stimorol95</a></li>
+          </ul>
+        </section>
+        <section class="section" id="about-me">
+          <h3 class="section__title">About Me</h3>
+          <p>My name is Artem, I am 26 years old. I work as an engineer and work at a research institute where I design
+            space
+            satellites. My goal is to be a frontend developer. I have a great motivation in development and constantly
+            want to learn
+            new things.</p>
+        </section>
+        <section class="section" id="skills">
+          <h3 class="section__title">Skills</h3>
+          <ul>
+            <li>Web-development: HTML5, CSS3, JavaScript</li>
+            <li>Source code editor: Visual Studio Code</li>
+            <li>Version control: GitHub, Git</li>
+            <li>Frameworks: React</li>
+            <li>Graphic editor: Figma</li>
+          </ul>
+        </section>
+        <section class="section" id="code-example">
+          <h3 class="section__title">Code Example</h3>
+          <p>Task from codewars website:
+            Complete the solution so that it reverses the string passed into it.
+            `'world' => 'dlrow' 'word' => 'drow' `</p>
+          <code>
+            function solution(str) {
+
+          let splitString = str.split('');
+          
+          let reverseArray = splitString.reverse();
+          
+          let joinArray = reverseArray.join('');
+          
+          return joinArray;
+          
+          }
+          
+          console.log(solution('world'));
+        </code>
+        </section>
+        <section class="section" id="work-experience">
+          <h3 class="section__title">Work experience</h3>
+          <p>On courses in Geekbrains, I made a training website with a clothing store:
+
+            <a href="https://stimorol95.github.io/clothing_store/">Clothing Store</a>
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h3 class="section__title">Education
+          </h3>
+          <p>In 2017, I graduated from the Aviation Institute, Faculty of Control Systems, Informatics and Power
+            Engineering, with a
+            degree in Navigation Systems and Inertial Sensors of Aircraft Control Systems. I am taking courses on
+            Geekbrains and RS School.
+          </p>
+        </section>
+        <section class="section" id="language">
+          <h3 class="section__title">Language</h3>
+          <Ul>
+            <li>Russian (native)</li>
+            <li>English (pre-intermediate)</li>
+          </Ul>
+        </section>
+      </div>
+      <div id="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <div id="slides">
+          <div id="overflow">
+            <div class="inner">
+              <div class="slide slide_1">
+                <div class="slide-content">
+                  <h2>Slide 1</h2>
+                  <p>Content for Slide 1</p>
+                </div>
+              </div>
+              <div class="slide slide_2">
+                <div class="slide-content">
+                  <h2>Slide 2</h2>
+                  <p>Content for Slide 2</p>
+                </div>
+              </div>
+              <div class="slide slide_3">
+                <div class="slide-content">
+                  <h2>Slide 3</h2>
+                  <p>Content for Slide 3</p>
+                </div>
+              </div>
+              <div class="slide slide_4">
+                <div class="slide-content">
+                  <h2>Slide 4</h2>
+                  <p>Content for Slide 4</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="controls">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+        </div>
+        <div id="bullets">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <a href="https://rs.school/js/"><img src="/assets/images/rs_school_js.svg" alt="rss"></a>
+      <a href="https://github.com/stimorol95" title="github">stimorol95</a>
+      <p>2022</p>
+    </div>
+
+  </footer>
+
+
 
 </body>
 
 </html>
-
-# **Artem Pashentsev**
-
-![profile](/img/profile.jpg)
-
-## Contact information:
-
-* E-mail: artem2695post@yandex.ru
-
-* Mobile: *8(999)9645808*
-
-* Discord: stimorol95#8973
-
-* [Telegram](https://t.me/stimorol95)
-
-* [Github](https://github.com/stimorol95)
-
-## About Me
-
-My name is Artem, I am 26 years old. I work as an engineer and work at a research institute where I design space
-satellites. My goal is to be a frontend developer. I have a great motivation in development and constantly want to learn
-new things.
-
-## Skills
-
-* HTML
-* CSS(SCSS)
-* Javascript
-* React
-
-I know how to work with:
-* Git
-* VS Code
-* Figma
-
-## Code Example
-
-Task from codewars website:
-
-Complete the solution so that it reverses the string passed into it.
-`'world' => 'dlrow' 'word' => 'drow' `
-
-```
-function solution(str) {
-
-let splitString = str.split('');
-
-let reverseArray = splitString.reverse();
-
-let joinArray = reverseArray.join('');
-
-return joinArray;
-
-}
-
-console.log(solution('world'));
-```
-
-## Work experience
-
-On courses in Geekbrains, I made a training website with a clothing store:
-
-[Store Link](https://stimorol95.github.io/clothing_store/)
-
-## Education
-
-In 2017, I graduated from the Aviation Institute, Faculty of Control Systems, Informatics and Power Engineering, with a
-degree in Navigation Systems and Inertial Sensors of Aircraft Control Systems.
-
-I am taking courses on Geekbrains and RS School.
-
-## Language
-
-* Russian (native)
-* English (pre-intermediate)
