@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Mono", monospace;
   border: 0;
+  font-family: "Roboto Mono", monospace;
 }
 
 *,
@@ -21,11 +21,17 @@ body {
   width: 100%;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.4;
+  color: #465945;
+  background-color: #ffefd5;
   scroll-behavior: smooth;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 :focus,

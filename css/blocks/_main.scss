@@ -1,14 +1,69 @@
 .main {
-    &__container {
-        display: flex;
-        flex-wrap: wrap;
-      }
+  &__header {
+    border-bottom: 3px solid #ccc;
+  }
 }
 
 .section {
-    &__title{
-        font-size: 22px;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-    }
+  &__title {
+    padding: 10px 0 10px 0;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829a7f;
+  }
+
+  &__link a {
+    color: #c9bd6c;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+
+  &__link a:hover {
+    color: #ac7f1f;
+  }
+
+  &__profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 100px 40px 100px;
+    background-image:url(/assets/images/hexagonal.png);
+  }
+
+  &__main {
+    text-transform: uppercase;
+  }
+
+  &__main:hover {
+    color: #ac7f1f;
+    transition: 0,8s;
+  }
+
+  &__img {
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 0 8px 18px;
+  }
+
+  &__img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+  &__item {
+      padding: 50px;
+      border-bottom: 3px solid #ccc;
+  }
+
+  &__item:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+  &__text {
+      padding-bottom: 10px;
+  }
 }
+
