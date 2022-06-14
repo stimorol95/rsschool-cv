@@ -14,13 +14,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-  }
-
-  &__list a {
-    color: #ffefd5;
-    text-decoration: none;
-    transition: color 0.5s;
+    max-width: 100%;
   }
 
   &__list a:hover {
@@ -28,8 +22,27 @@
   }
 
   &__link {
-    padding: 0 10px;
+    position: relative;
+    padding: 0 2px;
     line-height: 60px;
-    transition: 0.5s;
+    color: #ffefd5;
+    text-decoration: none;
+  }
+
+  &__list a:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 3px;
+    width: 0;
+    transition: all 0.5s;
+    background: #ac7f1f;
+  }
+
+  &__list a:hover:after {
+    width: 100%;
+    right: auto;
+    left: 0;
   }
 }
