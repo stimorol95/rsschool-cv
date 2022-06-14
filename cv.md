@@ -1,14 +1,14 @@
 # **Artem Pashentsev**
 
-![profile](./img/profile.jpg)
+![profile](./assets/pictures/main-foto.jpg)
 
 ## Contact information:
 
 - E-mail: artem2695post@yandex.ru
 
-- [Whats-app](https://wa.me/+79999645808)
+- [Whats app](https://wa.me/+79999645808)
 
-- [Discord:stimorol95#8973](https://discord.com/channels/@me/626266222471675906)
+- [Discord: stimorol95#8973](https://discord.com/channels/@me/626266222471675906)
 
 - [Telegram](https://t.me/stimorol95)
 
@@ -22,11 +22,11 @@ The ability to work in multitasking mode and high analytical skills allow me to 
 
 ## Skills
 
-*Web-development: HTML5, CSS3, JavaScript
-*Source code editor: Visual Studio Code
-*Version control: GitHub, Git
-*Frameworks: React
-*Graphic editor: Figma
+- Web-development: HTML5, CSS3, JavaScript
+- Source code editor: Visual Studio Code
+- Version control: GitHub, Git
+- Frameworks: React
+- Graphic editor: Figma
 
 ## Code Example
 
