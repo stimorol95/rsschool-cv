@@ -1,71 +1,265 @@
-# **Artem Pashentsev** 
+<!DOCTYPE html>
+<html lang="en">
 
-![profile](/img/profile.jpg)
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
 
-## Contact information:
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+            <li class="nav__item"><a href="#about-me" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#code-example" class="nav__link">Code Example</a></li>
+            <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+            <li class="nav__item"><a href="#language" class="nav__link">Language</a></li>
+            <li class="nav__item"><a href="#certificates" class="nav__link">Certificates</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-* E-mail: artem2695post@yandex.ru
+  <main class="main">
+    <div class="container">
+      <div class="main__header">
+        <section class="section">
+          <div class="section__profile">
+            <img src="/assets/pictures/main-foto.jpg" class="section__img" alt="profile" width="240" height="300">
+            <div class="section__main">
+              <h1>Artem Pashentsev</h1>
+              <h3>frontend developer</h3>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="main__content">
+        <section class="section" id="contacts">
+          <div class="section__item section__item_hover">
+            <h2 class="section__title">Contacts</h2>
+            <ul>
+              <li class="section__link"><a href="mailto:artem2695post@yandex.ru" title="email" target="_blank"><img
+                    src="/assets/images/icons/email.png" class="section__icon" alt="email" width="20"
+                    height="20">E-mail:
+                  artem2695post@yandex.ru</a>
+              <li class="section__link"><a href="https://wa.me/+79999645808" title="whatsapp" target="_blank"><img
+                    src="/assets/images/icons/whats-app.png" class="section__icon" alt="whatsapp" width="20"
+                    height="20">Whats app:
+                  +7 (999) 964 58 08</a></li>
+              <li class="section__link"><a href="https://discord.com/channels/@me/626266222471675906"
+                  target="_blank"><img src="/assets/images/icons/discord.png" class="section__icon" alt="discord"
+                    width="20" height="20">Discord: stimorol95#8973</a></li>
+              <li class="section__link"><a href="https://t.me/stimorol95" title="telegram" target="_blank"><img
+                    src="/assets/images/icons/telegram.png" class="section__icon" alt="telegram" width="20"
+                    height="20">Telegram:
+                  @stimorol95</a>
+              </li>
+              <li class="section__link"><a href="https://github.com/stimorol95" title="github" target="_blank"><img
+                    src="/assets/images/icons/github.png" class="section__icon" alt="github" width="20"
+                    height="20">GitHub:
+                  stimorol95</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="about-me">
+          <div class="section__item section__item_hover">
+            <h2 class="section__title">About Me</h2>
+            <p class="section__text">My name is Artem, I am 26 years old. I work as an engineer at a research
+              institute where I design
+              space
+              satellites. My goal is to be a frontend developer. I have a great motivation in development and constantly
+              want to learn
+              new things.</p>
+            <p class="section__text">The ability to work in multitasking mode and high analytical skills allow me to
+              work effectively with
+              large amounts of information, quickly find high-quality solutions to complex problems.</p>
+          </div>
+        </section>
+        <section class="section" id="skills">
+          <div class="section__item section__item_hover">
+            <h2 class="section__title">Skills</h2>
+            <ul class="section__text">
+              <li><span class="section__skills">Web-development:</span> HTML5, CSS3, JavaScript</li>
+              <li><span class="section__skills">Source code editor:</span> Visual Studio Code</li>
+              <li><span class="section__skills">Version control:</span> GitHub, Git</li>
+              <li><span class="section__skills">Frameworks:</span> React</li>
+              <li><span class="section__skills">Graphic editor:</span> Figma</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="code-example">
+          <div class="section__item section__item_hover">
+            <h2 class="section__title">Code Example</h2>
+            <p class="section__text">Task from codewars website:
+              Complete the solution so that it reverses the string passed into it.<br>
+              `'world' => 'dlrow' 'word' => 'drow' `</p>
+            <pre>
+            <code>
+            function solution(str) {
+            let splitString = str.split('');
+            let reverseArray = splitString.reverse();
+            let joinArray = reverseArray.join('');
+            return joinArray;
+            }
+            console.log(solution('world'));
+        </code>
+        </pre>
+          </div>
+        </section>
+        <section class="section" id="education">
+          <div class="section__item section__item_hover">
+            <h2 class="section__title">Education
+            </h2>
+            <p class="section__text">In 2017, I graduated from the Aviation Institute: Faculty of Control Systems,
+              Informatics and Power
+              Engineering, with a
+              degree in Navigation Systems and Inertial Sensors of Aircraft Control Systems. I am taking courses on
+              Geekbrains, YouTube, FreeCodeCamp and RS School. On courses at Geekbrains, I made a training website with
+              a clothing store:
+              <a href="https://stimorol95.github.io/clothing_store/">Clothing Store</a>
+            </p>
+          </div>
+        </section>
+        <section class="section" id="language">
+          <div class="section__item section__item_hover">
+            <h2 class="section__title">Language</h2>
+            <ul class="section__text">
+              <li>Russian (native)</li>
+              <li>English (pre-intermediate)</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="certificates">
+          <div class="section__item">
+            <h2 class="section__title">Certificates</h2>
+            <div class="section__slider" id="slider">
+              <input type="radio" name="slider" id="slide1" checked>
+              <input type="radio" name="slider" id="slide2">
+              <input type="radio" name="slider" id="slide3">
+              <input type="radio" name="slider" id="slide4">
+              <input type="radio" name="slider" id="slide5">
+              <input type="radio" name="slider" id="slide6">
+              <input type="radio" name="slider" id="slide7">
+              <input type="radio" name="slider" id="slide8">
+              <div id="slides">
+                <div id="overflow">
+                  <div class="inner">
+                    <div class="slide slide_1">
+                      <div class="slide__content">
+                      </div>
+                    </div>
+                    <div class="slide slide_2">
+                      <div class="slide__content">
+                      </div>
+                    </div>
+                    <div class="slide slide_3">
+                      <div class="slide__content">
+                      </div>
+                    </div>
+                    <div class="slide slide_4">
+                      <div class="slide__content">
+                      </div>
+                    </div>
+                    <div class="slide slide_5">
+                      <div class="slide__content">
+                      </div>
+                    </div>
+                    <div class="slide slide_6">
+                      <div class="slide__content">
+                      </div>
+                    </div>
+                    <div class="slide slide_7">
+                      <div class="slide__content">
+                      </div>
+                    </div>
+                    <div class="slide slide_8">
+                      <div class="slide__content">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+                <label for="slide6"></label>
+                <label for="slide7"></label>
+                <label for="slide8"></label>
+              </div>
+              <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+                <label for="slide6"></label>
+                <label for="slide7"></label>
+                <label for="slide8"></label>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section__item section__footer">
+            <h2 class="section__title">Contacts</h2>
+            <ul>
+              <li class="section__link"><a href="mailto:artem2695post@yandex.ru" title="email" target="_blank"><img
+                    src="/assets/images/icons/email.png" class="section__icon" alt="email" width="20"
+                    height="20">E-mail:
+                  artem2695post@yandex.ru</a>
+              <li class="section__link"><a href="https://wa.me/+79999645808" title="whatsapp" target="_blank"><img
+                    src="/assets/images/icons/whats-app.png" class="section__icon" alt="whatsapp" width="20"
+                    height="20">Whats app:
+                  +7 (999) 964 58 08</a></li>
+              <li class="section__link"><a href="https://discord.com/channels/@me/626266222471675906"
+                  target="_blank"><img src="/assets/images/icons/discord.png" class="section__icon" alt="discord"
+                    width="20" height="20">Discord: stimorol95#8973</a></li>
+              <li class="section__link"><a href="https://t.me/stimorol95" title="telegram" target="_blank"><img
+                    src="/assets/images/icons/telegram.png" class="section__icon" alt="telegram" width="20"
+                    height="20">Telegram:
+                  @stimorol95</a>
+              </li>
+              <li class="section__link"><a href="https://github.com/stimorol95" title="github" target="_blank"><img
+                    src="/assets/images/icons/github.png" class="section__icon" alt="github" width="20"
+                    height="20">GitHub:
+                  stimorol95</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
 
-* Mobile: *8(999)9645808*
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__list">
+          <a href="https://rs.school/js/" class="footer__link" target="_blank"><img
+              src="/assets/images/rs-school-js.svg " class="footer__img" alt="rss" width="80" height="60"></a>
+          <a href="https://github.com/stimorol95" class="footer__link" title="github" target="_blank"><img
+              src="/assets/images/icons/github.png " class="footer__img" alt="rss" width="60" height="60">
+            stimorol95</a>
+          <p class="footer__link">&#169; 2022 Artem Pashentsev</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
 
-* Discord: stimorol95#8973
-
-* [Telegram](https://t.me/stimorol95)
-
-* [Github](https://github.com/stimorol95)
-
-## About Me
-
- My name is Artem, I am 26 years old. I work as an engineer and work at a research institute where I design space satellites. My goal is to be a frontend developer. I have a great motivation in development and constantly want to learn new things.
-
-## Skills
-
-* HTML
-* CSS(SCSS)
-* Javascript
-* React
-
-I know how to work with:
-* Git 
-* VS Code
-* Figma
-
-## Code Example
-
-Task from codewars website:
-
-Complete the solution so that it reverses the string passed into it.
-`'world'  =>  'dlrow' 'word'   =>  'drow' `
-
-```
-function solution(str) {
- 
-  let splitString = str.split(''); 
-  
-  let reverseArray = splitString.reverse();
-  
-  let joinArray = reverseArray.join('');
-  
-  return joinArray;
-  
-}
-
-console.log(solution('world'));
-```
-
-## Work experience
-
-On courses in Geekbrains, I made a training website with a clothing store:
-
-[Store Link](https://stimorol95.github.io/clothing_store/)
-
-## Education
-
-In 2017, I graduated from the Aviation Institute, Faculty of Control Systems, Informatics and Power Engineering, with a degree in Navigation Systems and Inertial Sensors of Aircraft Control Systems. 
-
-I am taking courses on Geekbrains and RS School.
-
-## Language 
-
-* Russian (native)
-* English (pre-intermediate)
+</html>

@@ -1,0 +1,28 @@
+.footer {
+  &__content {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    background-color: #465945;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__link {
+    align-items: center;
+    line-height: 60px;
+    color: #ffefd5;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: #ac7f1f;
+    transform: scale(1.1);
+    transition: 1s;
+  }
+}
