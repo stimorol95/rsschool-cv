@@ -61,6 +61,30 @@
   height: 100%;
   color: #fff;
 }
+#slides .slide_1 {
+  background: url(../assets/images/courses/prof-html.jpg) no-repeat; 
+}
+#slides .slide_2 {
+  background: url(../assets/images/courses/basic-js.jpg) no-repeat;
+}
+#slides .slide_3 {
+  background: url(../assets/images/courses/prof-js.jpg) no-repeat;
+}
+#slides .slide_4 {
+  background: url(../assets/images/courses/assem-tools.jpg) no-repeat;
+}
+#slides .slide_5 {
+  background: url(../assets/images/courses/vue.jpg) no-repeat;
+}
+#slides .slide_6 {
+  background: url(../assets/images/courses/react.jpg) no-repeat;
+}
+#slides .slide_7 {
+  background: url(../assets/images/courses/node.jpg) no-repeat;
+}
+#slides .slide_8 {
+  background: url(../assets/images/courses/agile.jpg) no-repeat;
+}
 
 #controls {
   margin: -180px 0 0 0;
