@@ -168,10 +168,6 @@ button::-moz-focus-inner {
   color: #fff;
 }
 
-#slides .slide_1 {
-  background: url(../assets/images/certificates/prof-html.jpg) no-repeat;
-}
-
 #slides .slide_2 {
   background: url(../assets/images/certificates/basic-js.jpg) no-repeat;
 }
