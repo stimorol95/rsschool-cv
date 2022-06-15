@@ -169,36 +169,35 @@ button::-moz-focus-inner {
 }
 
 #slides .slide_1 {
-  background: url(../../assetsimages/certificates/prof-html.jpg) no-repeat;
-  max-width: 100%;
+  background: url(../assets/images/certificates/prof-html.jpg) no-repeat;
 }
 
 #slides .slide_2 {
-  background: url(../../assets/images/certificates/basic-js.jpg) no-repeat;
+  background: url(../assets/images/certificates/basic-js.jpg) no-repeat;
 }
 
 #slides .slide_3 {
-  background: url(../../assets/images/certificates/prof-js.jpg) no-repeat;
+  background: url(../assets/images/certificates/prof-js.jpg) no-repeat;
 }
 
 #slides .slide_4 {
-  background: url(../../assets/images/certificates/assem-tools.jpg) no-repeat;
+  background: url(../assets/images/certificates/assem-tools.jpg) no-repeat;
 }
 
 #slides .slide_5 {
-  background: url(../../assets/images/certificates/vue.jpg) no-repeat;
+  background: url(../assets/images/certificates/vue.jpg) no-repeat;
 }
 
 #slides .slide_6 {
-  background: url(../../assets/images/certificates/react.jpg) no-repeat;
+  background: url(../assets/images/certificates/react.jpg) no-repeat;
 }
 
 #slides .slide_7 {
-  background: url(../../assets/images/certificates/node.jpg) no-repeat;
+  background: url(../assets/images/certificates/node.jpg) no-repeat;
 }
 
 #slides .slide_8 {
-  background: url(../../assets/images/certificates/agile.jpg) no-repeat;
+  background: url(../assets/images/certificates/agile.jpg) no-repeat;
 }
 
 #controls {
